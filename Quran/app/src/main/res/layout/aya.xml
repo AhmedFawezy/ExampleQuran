@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="16dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/aya"
+			android:focusable="false"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:gravity="right"
+			android:ellipsize="end"
+			android:lineSpacingExtra="5dp"
+			android:text="بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ"
+			android:textSize="25sp"
+			android:textColor="#000000"
+			android:maxLines="30"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/num"
+			android:focusable="false"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:background="@drawable/imgb_2"
+			android:gravity="center"
+			android:padding="4dp"
+			android:text="1"
+			android:paddingBottom="5dp"
+			android:textSize="14sp"
+			android:textColor="#F05842"
+			android:layout_marginLeft="20dp"
+			android:layout_weight="1"/>
+
+		<ImageView
+			android:id="@+id/bookmark_icon"
+			android:layout_width="24dp"
+			android:layout_height="24dp"
+			android:src="@drawable/ic_bookmark_border"
+			android:scaleType="centerCrop"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"/>
+
+		<ImageView
+			android:id="@+id/iconcopy"
+			android:layout_width="24dp"
+			android:layout_height="24dp"
+			android:src="@drawable/icon_copy"
+			android:scaleType="centerCrop"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"/>
+
+		<ImageView
+			android:id="@+id/img_shar"
+			android:layout_width="24dp"
+			android:layout_height="24dp"
+			android:src="@drawable/img_shar"
+			android:scaleType="centerCrop"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
